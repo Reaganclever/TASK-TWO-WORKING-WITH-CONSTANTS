@@ -4,14 +4,14 @@
 
 double computeTotalCost(){
 
-const double taxRate = 0.06;
-double productPrice = 40000;
+const double taxRate = 0.36;
+double productPrice = 45000;
 double totalCost = productPrice + (taxRate * productPrice);
 
-printf("\nNEW PRODUCT PRICE:\t%.2lf\n" , productPrice);
-printf("NEW TAX RATE:\t%.2lf\n" , taxRate);
+printf("\nNEWEST PRODUCT PRICE:\t%.2lf\n" , productPrice);
+printf("NEWER TAX RATE:\t%.2lf\n" , taxRate);
 printf("------------\n");
-printf(" NEW TOTAL COST:\t%.2lf\n" , totalCost);
+printf(" NEWestTOTAL COST:\t%.2lf\n" , totalCost);
 
 return totalCost;
 
