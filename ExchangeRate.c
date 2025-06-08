@@ -4,15 +4,15 @@
 
 double computeExchangeRate(){
 
-const double rate = 3750;
-double USD = 7000;
+const double rate = 3750.23;
+double USD = 70890;
 
 double UGX = USD * rate;
 
-printf("\nNEW AMOUNT IN USD: \t%.2lfUSD\n" , USD);
-printf("NEW EXCHANGE RATE: \t%.2lfUGX/USD\n" , rate);
+printf("\nNEWEST AMOUNT IN USD: \t%.2lfUSD\n" , USD);
+printf("NEWER EXCHANGE RATE: \t%.2lfUGX/USD\n" , rate);
 printf("-------------\n");
-printf("NEW AMOUNT IN UGX: \t%.2lfUGX\n" ,UGX);
+printf("NEWEST AMOUNT IN UGX: \t%.2lfUGX\n" ,UGX);
 
 return UGX;
 
