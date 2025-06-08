@@ -4,13 +4,13 @@
 
 double calculateEmployeeBonus(){
 
-const double percent = 0.67;
-double salary = 38000;
+const double percent = 0.70;
+double salary = 33560;
 double employeeBonus = percent * salary;
-printf("\nNEW SALARY:\t%.2lf\n" , salary);
-printf("NEW BONUS:\t%.2lf\n" , percent);
+printf("\nNEWer SALARY:\t%.2lf\n" , salary);
+printf("NEWest BONUS:\t%.2lf\n" , percent);
 printf("------------\n");
-printf("NEWER EMPLOYEE BONUS:\tUGX%.2lf\n" , employeeBonus);
+printf("NEWEst EMPLOYEE BONUS:\tUGX%.2lf\n" , employeeBonus);
 return employeeBonus;
 }
 
