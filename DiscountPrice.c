@@ -4,11 +4,11 @@
 
 double calculateDiscountPrice(){
 
-const double percentage = 0.14;
-double price = 267000;
+const double percentage = 0.55;
+double price = 34500;
 
 double discountPrice = percentage * price;
-printf(" NEW DISCOUNT PRICE:  %.2lf\n" , discountPrice);
+printf(" NEWEST. DISCOUNT PRICE:  %.2lf\n" , discountPrice);
 return discountPrice;
 
 }
