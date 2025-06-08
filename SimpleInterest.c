@@ -2,11 +2,11 @@
 #include "TaskTwoProject.h"
 #include <stdlib.h>
 double computeSimpleInterest(){
-double principal = 23500;
-double time = 5;
-const double rate = 0.2;
+double principal = 286440;
+double time = 9;
+const double rate = 0.278;
 double simpleInterest = principal * time * rate;
-printf("NEW SIMPLE INTEREST:  %.2lf\n" , simpleInterest);
+printf("NEWEST SIMPLE INTEREST:  %.2lf\n" , simpleInterest);
 return simpleInterest;
 }
 
